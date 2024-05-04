@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(255, 0, 0);
+    
+    }
+    header{
+
+        background-color: rgb(255, 0, 0);
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 20px;
+    }
+    footer{
+        background-color: rgb(255, 0, 0);
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 20px;
+ }
+ nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ }
+ nav ul li{
+    display: inline-block;
+    position: relative;
+ }
+ nav ul li a{
+    display: block;
+    padding: 15px;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+ }
+ nav ul li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 0, 0);
+ }
+ nav ul li ul.dropdown{
+
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    box-shadow:0 2px 5px rgb(0, 255, 34);
+    display: none;
+ }
+
+ nav ul li:hover ul.dropdown{
+    display: block;
+ }
+ nav ul li ul.dropdown li{
+    display: block;
+ }
+ nav ul li ul.dropdown li a{
+    padding:10px 20px;
+    color: rgb(0, 255, 34);
+    text-decoration: none;
+    display: block;
+ }
